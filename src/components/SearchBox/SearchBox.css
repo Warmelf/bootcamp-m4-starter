@@ -39,3 +39,29 @@
     opacity: 0.5;
     cursor: not-allowed;
 }
+
+@media screen and (max-width: 679px) {
+    .search-box__form-input {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .search-box__form-input {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 452px) {
+    .search-box__form-input {
+        width: 90%;
+    }
+
+    .search-box__form {
+        flex-direction: column;
+    }
+
+    .search-box__form-submit {
+        width: 80%;
+    }
+}

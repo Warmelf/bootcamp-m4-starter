@@ -31,3 +31,17 @@
     opacity: 0.9;
     transition: all 0.2s linear;
 }
+
+.favorites__none {
+    display: none;
+}
+
+.favorites__appear {
+    display: block;
+}
+
+@media screen and (max-width: 382px) {
+    .favorites__save {
+        padding: 10px 5px;
+    }
+}

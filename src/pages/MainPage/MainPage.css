@@ -17,3 +17,9 @@
 .main-page__favorites {
     width: 35%;   
 }
+
+@media screen and (max-width: 679px) {
+    .main-page__main-section {
+        padding-left: 10px;
+    }   
+}
